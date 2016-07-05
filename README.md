@@ -2,7 +2,7 @@
 <h3>Create checkbox lists with multiple or individual selections</h3>
 <h4>Demo</h4>
 <p>
-   Check out this plnkr:- <a href="https://plnkr.co/edit/prrHUd7r93XxIpZKdSNU">https://plnkr.co/edit/prrHUd7r93XxIpZKdSNU</a>
+   Check out this plnkr:- <a href="https://embed.plnkr.co/prrHUd7r93XxIpZKdSNU/">https://embed.plnkr.co/prrHUd7r93XxIpZKdSNU/</a>
 </p>
 
 <h4>How to use / install</h4>
@@ -29,14 +29,14 @@
             "selection3"
          ]
          // Defining variable to hold the selections
-         dc.multipleSelection = []
+         dc.multipleSelections = []
       }])
    ````
 
 - Now you can add the following attributes to the input element like below
    ````javascript
    <label ng-repeat="thing in dc.list">
-      <input type="checkbox" checkbox-model="dc.individualSelections" checkbox-value="thing" multiple>
+      <input type="checkbox" checkbox-model="dc.multipleSelections" checkbox-value="thing" multiple>
       {{thing}}
    </label>
    ````
