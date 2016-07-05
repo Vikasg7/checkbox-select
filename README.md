@@ -2,7 +2,7 @@
 <h3>Create checkbox lists with multiple or individual selections</h3>
 <h4>Demo</h4>
 <p>
-   Check out this plnkr:- <a href="https://run.plnkr.co/AuAEs0K61CcbG2jw/">https://run.plnkr.co/AuAEs0K61CcbG2jw/</a>
+   Check out this plnkr:- <a href="https://plnkr.co/edit/prrHUd7r93XxIpZKdSNU">https://plnkr.co/edit/prrHUd7r93XxIpZKdSNU</a>
 </p>
 
 <h4>How to use / install</h4>
