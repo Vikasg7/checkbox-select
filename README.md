@@ -6,11 +6,11 @@
 </p>
 
 <h4>How to use / install</h4>
-- Download checkbox-select.js file in your project folder.
+- Download `checkbox-select.js` file in your project folder.
 
-- Add it to your index.html using script tags.
+- Add it to your `index.html` using script tags.
 
-- Add a reference to checkbox-select module while initiating the angular-app like below
+- Add a reference to `checkbox-select` module while initiating the angular-app like below
    ````javascript
    angular.module("APP", ["checkbox-select"])         
 
@@ -36,7 +36,7 @@
 - Now you can add the following attributes to the input element like below
    ````javascript
    <label ng-repeat="thing in dc.list">
-      <input type="checkbox" checkbox-model="dc.individualSelections" checkbox-value="thing">
+      <input type="checkbox" checkbox-model="dc.individualSelections" checkbox-value="thing" multiple>
       {{thing}}
    </label>
    ````
