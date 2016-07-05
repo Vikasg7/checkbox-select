@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <link rel="stylesheet" href="style.css" />
+      
+   </head>
+   
+   <body ng-app="APP" ng-controller="demoCtrl as dc">
+      <h1>checkbox-select demo</h1>
+      
+      <h4>Multiple Selections</h4>
+      <label ng-repeat="thing in dc.list">
+         <input type="checkbox" checkbox-model="dc.multipleSelections" checkbox-value="thing" multiple>
+         {{thing}}
+      </label>
+      <p>dc.multipleSelecitons:- {{dc.multipleSelections}}</p>
+      
+      <h4>Individual Selections</h4>
+      <label ng-repeat="thing in dc.list">
+         <input type="checkbox" checkbox-model="dc.individualSelections" checkbox-value="thing">
+         {{thing}}
+      </label>
+      <p>dc.individualSelecitons:- {{dc.individualSelections}}</p>
+      
+      <script data-require="jquery@3.0.0" data-semver="3.0.0" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.js"></script>
+      <script data-require="angular.js@1.5.6" data-semver="1.5.6" src="https://code.angularjs.org/1.5.6/angular.min.js"></script>
+      <script src="checkbox-select.js"></script>
+      <script src="script.js"></script>
+   </body>
+
+</html>
