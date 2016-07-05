@@ -4,8 +4,8 @@
 <p>
    Check out this plnkr:- <a href="https://run.plnkr.co/AuAEs0K61CcbG2jw/">https://run.plnkr.co/AuAEs0K61CcbG2jw/</a>
 </p>
+
 <h4>How to use / install</h4>
-<br>
 - Download checkbox-select.js file in your project folder.
 
 - Add it to your index.html using script tags.
@@ -68,7 +68,6 @@
          </tr>
       </tbody>
    </table>
-<br>
 <h4>Donate</h4>
 <p>If this repository helps you anyhow, please don't mind coming back and 
    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=F3QQCWFPWHBYE" target="_blank">Buy Me Coffee</a>
