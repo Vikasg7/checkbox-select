@@ -63,7 +63,7 @@
          </tr>
          <tr>
             <td>multiple</td>
-            <td>No value. Using it, will allow multiple selections. Remove it, if you want to select on checkbox at a time</td>
+            <td>No value. Using it, will allow multiple selections. Remove it, if you want to select one checkbox at a time</td>
             <td>Optional</td>
          </tr>
       </tbody>
